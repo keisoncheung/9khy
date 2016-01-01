@@ -1,0 +1,295 @@
+﻿body {margin:0px; color:#726547;font-size:12px;line-height:20px; font-family:微软雅黑,宋体;
+      
+; height:100%;
+}
+
+ul,li,dl,dt,dd{margin:0px; list-style-type:none; padding:0px;}
+img{border-style: none;
+	border-color: inherit;
+	border-width: 0px;
+}
+
+a {text-decoration: none; color:#5F5F5F;}
+a:link {color:#5F5F5F; text-decoration:none; }
+a:visited {color:#5F5F5F; text-decoration:none; }
+a:hover{color:#5F5F5F; text-decoration:none;}
+a.look:link {color:#5F5F5F; text-decoration:none;}
+a.look:visited {color:#5F5F5F; text-decoration:none;}
+a.look:hover{color:#5F5F5F;text-decoration:none;}
+
+a.look:hover{color:#5F5F5F;text-decoration:underline;}
+
+menu_bot{ font-size:14px; font-weight:bold; color:#A40000;}
+
+.menu_bot a {text-decoration: none; color:#A40000;}
+.menu_bot a:link {color:#A40000; text-decoration:none; }
+.menu_bot a:visited {color:#A40000; text-decoration:none; }
+.menu_bot a:hover{color:#A40000; text-decoration:none;}
+.menu_bot a.look:link {color:#A40000; text-decoration:none;}
+.menu_bot a.look:visited {color:#A40000; text-decoration:none;}
+.menu_bot a.look:hover{color:#A40000;text-decoration:none;}
+
+.menu_bot a.look:hover{color:#A40000;text-decoration:underline;}
+
+
+.menubg{background:url(../images/menubg2.jpg); 
+               
+height:36px; width:100%; line-height:36px; color:White;
+}
+
+.menubg li{ float:left; text-align:center;}
+
+.menubg a {text-decoration: none; color:white;}
+.menubg a:link { color:white; text-decoration: none; }
+/* 未访问的链接 */
+.menubg a:visited { color:white; text-decoration: none; }
+/* 鼠标在链接上 */
+.menubg a:hover { color:#ff6600; text-decoration: none; }
+/* 已访问的链接 */
+.menubg a:active { color:white; text-decoration: none; }
+.menuli1{ width:110px; font-size:14px; font-weight:bold;}
+.menuli2{ width:10px; font-size:14px;}
+
+/****zhang*****/
+
+.p001 {
+	clear: both;
+	height: 100px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.p001 {
+	clear: both;
+	height: 248px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.p001 .p002 {
+	background-image: url(../images/899.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	width: 465px;
+	height: 100px;
+}
+.p001 .p003 {
+	background-image: url(../images/898.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	width: 523px;
+	height: 100px;
+}
+.p004 {
+	background-image: url(../images/menubg_new.jpg);
+	clear: both;
+	height: 57px;
+	font-size:16px;
+	margin-right: auto;
+	margin-left: auto;
+	width:100%;
+	font-family:微软雅黑,宋体;
+	
+}
+.p004 li {
+	line-height: 56px;
+	float: left;
+	text-align: center;
+}
+.p004 ul {
+	margin:0px auto;
+	width:988px;
+	
+	clear: both;
+	height: 56px;
+}
+.p004_li1
+{
+	
+	 width:108px;
+	}
+
+.p004_li2
+{
+	background-image: url(../images/menubg3.jpg);
+	width:2px;
+	height:56px;
+	float:left;
+	}
+
+.p004 a {
+	font-size: 16px;
+	font-weight:bold;
+	color:  #705425;
+	text-decoration: none;
+}
+
+
+
+.p004 a {text-decoration: none; color:white;}
+.p004 a:link {color:white; text-decoration:none; }
+.p004 a:visited {color:white; text-decoration:none; }
+.p004 a:hover{color:white; text-decoration:none;}
+.p004 a.look:link {color:white; text-decoration:none;}
+.p004 a.look:visited {color:white; text-decoration:none;}
+.p004 a.look:hover{color:white;text-decoration:none;}
+
+
+
+
+.p004 .p005 {
+	background-image: url(../images/896.jpg);
+	background-repeat: no-repeat;
+	background-position: center 6px;
+}
+.p004 .p005 a {
+	color: #00659A;
+}
+
+.nk_citysearch_div
+{clear:both;
+	}
+.nk_citysearch_div div{width: 50px; float: left; text-align:center; height: 25px; line-height: 25px;}	
+
+
+
+/*********图片特效***********/
+/* 通用图片列表_普通式 */ 
+.picList li{  width:195px; } 
+.picList .pic{  /*非IE的主流浏览器识别的垂直居中的方法*/
+        display: table-cell;
+        vertical-align:middle;
+        
+        /*设置水平居中*/
+        text-align:center;
+        
+        /* 针对IE的Hack */
+        *display: block;
+        *font-size: 122px;/*约为高度的0.873，200*0.873 约为175*/
+        *font-family:Arial;/*防止非utf-8引起的hack失效问题，如gbk编码*/
+
+        width:172px;
+        height:140px;
+        border: 1px solid #999; overflow:hidden;margin:0px auto; padding:1px;  }
+
+.picList .pic img{ vertical-align:middle; border:0px; width:170px; height:138px;}
+ 
+.picList .pic img{} 
+.picList .pic a:hover img{ } 
+.picList .title{ line-height:24px; } 
+
+/* 多个左滚动 - 公用类 */ 
+.leftLoop{ overflow:hidden; position:relative; height:173px;} 
+.leftLoop .hd{ overflow:hidden;  height:30px; background:#f4f4f4;  } 
+.leftLoop .hd .prev,.leftLoop .hd .next{ display:block;  width:5px; height:9px; line-height:10px; float:right; margin-right:10px; margin-top:10px;  overflow:hidden;   
+     cursor:pointer; background:url("demoEffect/images/icoLeft.gif") no-repeat;} 
+.leftLoop .hd .next{ background:url("demoEffect/images/icoRight.gif") no-repeat;  } 
+.leftLoop .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px;  } 
+.leftLoop .hd ul li{ position:relative; _display:inline; float:left;  width:10px; height:10px; overflow:hidden; background:#ccc; margin-right:10px; text-indent:-999px; cursor:pointer; 
+    -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; behavior: url(PIE.htc);} 
+.leftLoop .hd ul li.on{ background:#f00;  } 
+.leftLoop .bd{ padding:5px;   } 
+.leftLoop .bd ul{ overflow:hidden; zoom:1; } 
+.leftLoop .bd ul li{ margin:0 10px; text-align:center; float:left;display:_inline;  } 
+.KeFuDiv{
+	position: absolute;
+	width:118px;
+}
+.KeFuList{
+	background:url(../../images/mid001.gif);
+	height:auto!important;
+	height:190px; min-height:60px;
+}
+.KeFuTitle{
+	background:url(../../images/list_001.gif);
+	margin-left:9px;
+	font-size:9pt;
+	width:101px;
+	height:20px;
+	text-align:center;
+}
+.KeFuItem{
+	width:90px; margin:2px auto;
+	
+	clear:both;
+	line-height:22px; height:22px;
+}
+.KeFuItem div{
+	text-align:center;
+	float:left;
+}
+
+
+
+.uc1_left{clear: both; border-left: solid 1px #E2D19D; border-right: solid 1px #E2D19D;
+    border-top: solid 1px #E2D19D; width: 200px;}
+
+.uc1_left2{height:auto!important; height:100px; min-height:100px; width: 200px;}
+.boot p{ margin:5px 0px;}
+
+.khotel_index2div
+{
+	float: left;width:260px; overflow:hidden;
+}
+.khotel_index_imgdiv2{width:250px; height:145px; display: table-cell;
+        vertical-align:middle;
+        /*设置水平居中*/
+        text-align:center;
+        /* 针对IE的Hack */
+        *display: block;
+        *font-size: 126px;/*约为高度的0.873，200*0.873 约为175*/
+        *font-family:微软雅黑,宋体;/*防止非utf-8引起的hack失效问题，如gbk编码*/
+       overflow:hidden;border:solid 1px #C0C1C5; padding:1px; overflow:hidden;}
+       
+       .khotel_index_imgdiv2 img{ width:250px; height:145px;}
+.khotel_index_condiv2{ clear:both; width:250px; height:43px; line-height:20px; overflow:hidden;}
+
+
+.new_index_tit{background-image: url(../images/titbg_new.jpg); width: 100%; height: 35px;
+                    line-height: 35px; font-size: 16px; font-weight: bold; text-indent: 10px; color: #A40000;}
+
+.kcdlb_index{}
+.kcdlb_index dl{width: 250px; float:left;}
+.kcdlb_index dl dd{ border-bottom-style:dotted; border-bottom:1px; border-bottom-color:#0E70D3; width:220px; overflow:hidden; height:25px; line-height:25px; background:url(../images/jt1_1.jpg) no-repeat; text-indent:16px;}
+.kcdlb_index dl dd img{ margin-right:5px;}
+
+.kcase_index{ clear:both; width: 1000px; height:228px; overflow:hidden;}
+.kcase_indexdiv{margin:3px 0px; width: 490px; float:left; height:108px; overflow:hidden;}
+.kcase_index_imgdiv{width:200px; height:108px;  line-height:108px; display: table-cell;
+        vertical-align:middle;
+        /*设置水平居中*/
+        text-align:center;
+        /* 针对IE的Hack */
+        *display: block;
+        *font-size: 94px;/*约为高度的0.873，200*0.873 约为175*/
+        *font-family:微软雅黑,宋体;/*防止非utf-8引起的hack失效问题，如gbk编码*/
+       overflow:hidden; float:left;}
+       .kcase_index_imgdiv img{ width:200px; height:108px;}
+.kcase_index_condiv{ float:left; width:268px; margin-left:1px; height:108px; overflow:hidden;}
+.kcase_index_condiv dl{width: 266px;height:90px; margin:2px; }
+.kcase_index_condiv dl dd{ border-bottom-style:dotted; border-bottom:1px; border-bottom-color:#0E70D3; width:266px; overflow:hidden; height:30px; line-height:30px; }
+
+.kcd_index2
+{
+ clear:both; width: 200px; overflow:hidden;
+}
+.kcd_index2div
+{
+	 clear:both; width: 200px; overflow:hidden;
+}
+.kcd_index_imgdiv2{width:198px; height:80px; line-height:80px; display: table-cell;
+        vertical-align:middle;
+        /*设置水平居中*/
+        text-align:center;
+        /* 针对IE的Hack */
+        *display: block;
+        *font-size: 69px;/*约为高度的0.873，200*0.873 约为175*/
+        *font-family:微软雅黑,宋体;/*防止非utf-8引起的hack失效问题，如gbk编码*/
+       overflow:hidden;border:solid 1px #C0C1C5; padding:1px;}
+       .kcd_index_imgdiv2 img{width:198px; height:80px; }
+.kcd_index_condiv2{ clear:both; width:210px; height:80px; overflow:hidden;}
+.kcdlb_index2{width: 100%; height: 135px; clear:both;}
+.kcdlb_index2 dl{width: 100%; float:left;}
+.kcdlb_index2 dl dd{ border-bottom-style:dotted; border-bottom:1px; border-bottom-color:#0E70D3; width:95%; overflow:hidden; height:25px; line-height:25px; background:url(../images/jt1_1.jpg) no-repeat; text-indent:16px; }
+.kcdlb_index2 dl dd img{ margin-right:5px;}
